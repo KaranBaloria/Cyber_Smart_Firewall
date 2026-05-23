@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Firewall Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🛡 Smart Firewall</h1>
+
+    <textarea id="payload" placeholder="Enter request payload"></textarea>
+
+    <button onclick="sendRequest()">Send Request</button>
+
+    <div id="status" class="status">Waiting...</div>
+
+    <h2>📜 Firewall Logs</h2>
+    <div id="logs" class="logs"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
